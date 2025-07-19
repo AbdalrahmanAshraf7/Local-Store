@@ -381,10 +381,10 @@ updated.splice(index, 1, { ...updated[index], ...values })
 </form>
 
 
-<div className='flex justify-center items-center  ps-10'>
 
 
-<div className='flex flex-wrap container gap-5 mt-11 md:flex-row md:gap-2 items-center  justify-start w-full   '>
+
+<div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  '>
 
 
 {Products.map((p,index)=>{return<>
@@ -392,7 +392,7 @@ updated.splice(index, 1, { ...updated[index], ...values })
 
 
 
-<div className="  bg-gray-200 border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 md:w-[49%] lg:w-[32%]  w-full mt-2  ">
+<div className="  bg-gray-200 border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 lg:w-[90%] w-[90%] mt-5 mx-auto  ">
   <div className='flex justify-center items-center p-4'>
     <img className=" h-60 object-cover" src={p.img} alt />
   </div>
@@ -432,7 +432,7 @@ updated.splice(index, 1, { ...updated[index], ...values })
 })}
 
 </div>
-</div>
+
 
 
   
